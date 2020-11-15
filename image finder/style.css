@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image-container {
+    max-width: 1300px;
+    width: 90%;
+    margin: 30px auto;
+    column-count: 3;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.search-container {
+    width: 100%;
+    background: cornflowerblue;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container input {
+    height: 100%;
+    padding: 10px;
+    border: none;
+    background: #f4f4f4;
+    outline-width: 0;
+}
+
+.search-container button {
+    padding: 10px 20px; 
+    border: none;   
+    outline: none;
+    cursor: pointer;
+}
